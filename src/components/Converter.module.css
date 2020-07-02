@@ -1,0 +1,36 @@
+.converter {
+    border: 1px solid;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.button {
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.button > img {
+    width: 30px;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+    margin-top: 20px;
+}
